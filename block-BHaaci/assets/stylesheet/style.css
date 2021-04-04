@@ -1,0 +1,153 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../media/bg-intro-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #FF7978;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custom styles starts */
+
+.container{
+    width: 80%;
+    margin:200px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.sec_left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sec_left h1{
+    font-size: 60px;
+    color: #FFFFFF;
+    font-weight: 900;
+    width: 80%;
+}
+.sec_left p{
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 2;
+    width: 80%;
+    margin-top: 30px;
+}
+.sec_right{
+    width: 50%;
+    height: 100%;
+}
+.sec_right .btn_1{
+    background-color: #5D54A3;
+    height: 60px;
+    width: 80%;
+    color: #ffffffd7;
+    font-size: 16px;
+    border-radius: 6px;
+    font-weight: lighter;
+    border: 0;
+    outline: 0;
+    letter-spacing: 1px;
+}
+form{
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    width: 80%;
+    height: 550px;
+    margin-top: 20px;
+}
+fieldset{
+    padding-top: 30px;
+}
+.input_control{
+    display: block;
+    width: 80%;
+    border-radius: 6px;
+    height: 50px;
+    margin: 30px 50px;
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    padding-left: 20px;
+    font-size: 13px;
+    font-weight: bolder;
+}
+form fieldset .btn_2{
+    background-color: #37CC8A;
+    width: 84%;
+    height: 50px;
+    border-radius: 6px;
+    font-size: 13px;
+    border: 0;
+    outline: 0;
+    margin: 0px 50px;
+    color: #FFFFFF;
+    font-weight: bolder;
+    letter-spacing: 2px;
+
+}
+form fieldset .form_para{
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+    margin-top: 20px;
+
+}
+strong{
+    color: red;
+    font-weight: bolder;
+    margin-left: 10px;
+
+}
+.str_1_new{
+    color: #FFFFFF;
+    font-weight: bolder;
+}
