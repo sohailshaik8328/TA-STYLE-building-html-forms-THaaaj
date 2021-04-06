@@ -54,6 +54,7 @@ table {
     width: 70%;
     /* border: 1px solid #FFFFFF; */
     margin: auto;
+    box-shadow: 0 0 0 0.5px rgba(0, 0, 0, 0.1);
 }
 .flex{
     display: flex;
@@ -61,7 +62,7 @@ table {
     justify-content: space-between;
 }
 .header_sec{
-    width: 100%;
+    width: 80%;
     height: 100px;
     margin: auto;
     
@@ -96,6 +97,9 @@ table {
 }
 .header_right nav ul li  .nav_home{
     color: #6AC6BA;
+}
+.main{
+    background-color: #E6E6E6;
 }
 .banner_bg_color{
     background-color: rgba(0, 0, 0, 0.39);
@@ -142,10 +146,11 @@ table {
 .banner .banner_content{
     background-color: #FFFFFF;
     border-radius: 5px;
-    width:100% ;
-    height: 320px;
+    /* width:100% ; */
+    height: 250px;
     border-radius: 6px;
-    margin-top: 100px;
+    margin-top: 180px;
+    padding-top: 10px;
 }
 .banner_content .ban_cont_left{
     width: 40%;
@@ -154,15 +159,15 @@ table {
 }
 .ban_cont_left_top h5, .ban_cont_left_bottom h5, 
 .ban_cont_right .ban_cont_right_head h5{
-    font-size: 18px;
+    font-size: 12px;
     font-weight: bolder;
-    margin: 50px 60px;
+    margin: 30px 60px;
 }
 .ban_cont_left_top p, .ban_cont_left_bottom p,
 .ban_cont_right .ban_cont_right_para p{
-    font-size: 13px;
+    font-size: 11px;
     color: rgba(0, 0, 0, 0.781);
-    margin: 0px 90px;
+    margin: 0px 80px;
     font-weight: bolder;
 
 }
@@ -180,7 +185,7 @@ table {
     border: 0;
     outline: 0;
     color: #FFFFFF;
-    margin-top: 90px;
+    margin-top: 60px;
 }
 
 /* journey css starts */
@@ -228,6 +233,9 @@ table {
 /* journey css ends */
 
 /* Images css starts */
+.images_section{
+    background-color: #FFFFFF;
+}
 .img_sec_right{
     position: absolute;
     left: 42%;
@@ -320,10 +328,13 @@ table {
 /* map_Section ends */
 
 /* curved_img_section starts */
+.curve_img_sec_new{
+    background-color: #ffffff;
+}
 .curve_one{
     margin-top: 30px;
-    border: 1px solid rgba(128, 128, 128, 0.253);
-    
+    border: 1px solid rgba(128, 128, 128, 0.308);
+
 }
 
 .curve_one_data strong{
@@ -390,6 +401,8 @@ table {
     color: #FFFFFF;
 }
 
+
+
 /* curve image section ends */
 
 /* map section css starts */
@@ -401,6 +414,7 @@ table {
 
 .map_section_total{
     position: relative;
+    background-color: #ffffff;
 
 }
 .form{
